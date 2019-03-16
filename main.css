@@ -55,14 +55,26 @@
     0 0 100px #0ff,
     0 0 150px #0ff;
     border: 0.1px solid rgba(245, 245, 245, 0.274);
-      box-shadow:  0 0 5px rgba(228, 225, 225, 0.356),
-      0 0 10px rgba(221, 219, 219, 0.37),
-      0 0 20px rgba(226, 225, 225, 0.295),
-      0 0 40px rgba(179, 178, 236, 0.308),
-      0 0 80px rgba(170, 173, 173, 0.288),
-      0 0 90px rgba(200, 243, 243, 0.336),
-      0 0 100px rgba(182, 201, 201, 0.26),
-      0 0 150px rgba(180, 187, 187, 0.267);
+      box-shadow:  none;
+    transition: box-shadow 1s, text-shadow 1s;
+  }
+
+  section:hover {
+    box-shadow: 0 0 5px rgba(228, 225, 225, 0.356),
+    0 0 10px rgba(221, 219, 219, 0.37),
+    0 0 20px rgba(226, 225, 225, 0.295),
+    0 0 40px rgba(179, 178, 236, 0.308),
+    0 0 80px rgba(170, 173, 173, 0.288),
+    0 0 90px rgba(200, 243, 243, 0.336),
+    0 0 100px rgba(182, 201, 201, 0.26),
+    0 0 150px rgba(180, 187, 187, 0.267);
+    text-shadow:
+    0 0 5px rgb(228, 225, 225),
+    0 0 10px rgb(221, 219, 219),
+    0 0 20px rgb(226, 225, 225),
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff;  
   }
 
   .first, .third {
@@ -72,4 +84,9 @@
   .second, .fourth {
       float: right;
   }
+
+
+
+
+
 
