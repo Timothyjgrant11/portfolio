@@ -12,32 +12,63 @@
         <main role="main">
                 <header role="banner">
                     <h1>Hello.</h1> 
-                    <h2>About Me</h2>
                 </header>
-
+                
                 <section class="first">
-                   Projects
+                    <button class="accordion">Projects</button>
+                        <div class="panel" id="projects">
+                        <a href="https://timothyjgrant11.github.io/Quiz/">
+                            <img src="images/QuizApp.png"alt="Quiz app screenshot link"
+                            style="width: 300px;">
+                        </a>
+                        <p>Quiz App I created during the Thinkful bootcamp. The assignment was to create a 10 question quiz with a topic of your choosing.
+                           The app follows specific guidelines set up by Thinkful such as the number of questions and answer choices, feedback after every 
+                           answer guess, the users current score, and the final score with the option to retake.<br>
+                                The Quiz App implements:
+                                -HTML
+                                -CSS
+                                -Javascript
+                                -Jquery 
+                        </p>
+                        </div>
                 </section>
 
-            <a href="https://github.com/Timothyjgrant11">
                 <section class="second">
-                    GitHub
+                    <button class="accordion">GitHub</button>
+                        <div class="panel" id="git">
+                         <p>Check out my GitHub</p>
+                         <a href="https://github.com/Timothyjgrant11">
+                             <img src="images/github-logo.png"alt="Github logo">
+                         </a>
+                </div>
                 </section>
-            </a>
 
                 <section class="third">
-                    Bio
-                </section>
-                
-                <section class="fourth">
-                    Contact
+                    <button class="accordion">Bio</button>
+                        <div class="panel" id="bio">
+                        <p>I’m Tim, a Web Developer in training, currently enrolled in the Full Stack program at Thinkful.
+                        I’m particularly drawn to code and design that is simple and clever while still being both practical
+                        and functional. When I’m not coding I’m generally researching my latest interest on the internet, walking my dog,
+                        or checking out the local coffee shops and bookstores. </p>
+                        </div>
                 </section>
 
-                <div class="container" id="portfolio">
-                        <h3>PORTFOLIO</h3>
-                        <a href="https://timothyjgrant11.github.io/Quiz/" class="image"
-                        src="images/QuizApp.png"alt="Screenshot of thinkful Quiz App"></a>
-                </div>
+                <section class="fourth">
+                    <button class="accordion">Contact</button>
+                        <div class="panel" id="contact">
+                        <p>Feel free to reach out with any questions, or just to say hello!</p>
+                            <a href="https://github.com/Timothyjgrant11">
+                                <img src="images/github-logo.png"alt="Github logo">
+                            </a>
+                            <a href="mailto: timothyjgrant11@gmail.com">
+                                <img src="images/Gmail-logo.png"alt="Gmail logo">
+                            </a>
+                            <a href="www.linkedin.com/in/tim-grant-362ba8180">
+                                <img src="images/linkedin-logo.png"alt="linkedin logo">
+                            </a>
+                        </div>
+                </section>
+                
             <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
             <script src="index.js"></script>
             </main>

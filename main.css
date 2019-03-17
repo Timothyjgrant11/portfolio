@@ -4,14 +4,14 @@
   
   body {
     font-size: 20px;
-    color: rgb(48, 47, 47);
+    color: rgb(214, 209, 209);
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
     background: rgba(0, 0, 0, 0.918);
   }
 
   header {
     padding: 10px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #fff;
     text-shadow:0 0 5px rgb(228, 225, 225),
@@ -29,13 +29,35 @@
       margin-left: 10px;
   }
 
-  h2 { 
-      text-align: right;
-      margin-top: -70px;
-      font-weight: 50;
+  p {
+      font-family: 'Montserrat', sans-serif; 
+      font-size: 17px;
+      color: black;
+      text-shadow: none;
+      font-weight: 800;
 }
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 3s;
+  }
   
-  section {
+  .panel {
+    display: block;
+    min-height: 300px;
+    line-height: 40px;
+    padding: 4px;
+    background-color:whitesmoke;
+    display: none;
+    overflow: hidden;
+    transition: max-height 5s ease-out
+  }
+  
+  section, button {
     display: inline-block;
     min-height: 300px;
     width: 50%;
@@ -84,6 +106,15 @@
   .second, .fourth {
       float: right;
   }
+
+  img {
+      background-color:whitesmoke;
+      width: 150px;
+      height: 150px;
+      margin-top: 3px; 
+      padding: 7px;
+  }
+
 
 
 
