@@ -43,7 +43,7 @@
     width: 100%;
     border: none;
     outline: none;
-    transition: 3s;
+    transition: 1s;
   }
   
   .panel {
@@ -54,7 +54,7 @@
     background-color:whitesmoke;
     display: none;
     overflow: hidden;
-    transition: max-height 5s ease-out
+    transition: max-height 1s ease-out
   }
   
   section, button {
@@ -90,6 +90,9 @@
     0 0 90px rgba(200, 243, 243, 0.336),
     0 0 100px rgba(182, 201, 201, 0.26),
     0 0 150px rgba(180, 187, 187, 0.267);
+  }
+
+  .accordion:hover{
     text-shadow:
     0 0 5px rgb(228, 225, 225),
     0 0 10px rgb(221, 219, 219),
