@@ -47,7 +47,6 @@
   }
   
   .panel {
-    display: block;
     position: fixed;
     top: 100px;
     right: 0;
@@ -60,7 +59,7 @@
     width: 70%;
     line-height: 40px;
     padding: 4px;
-    background-color:whitesmoke;
+    background-color:rgba(245, 245, 245, 0.979);
     display: none;
     transition: max-height 0.8s ease-out;
     z-index: 2;
